@@ -1,0 +1,355 @@
+                                                                                   
+ClassUser@COMP340-14 c:\ospanel                                                    
+> cd                                                                               
+c:\ospanel                                                                         
+                                                                                   
+ClassUser@COMP340-14 c:\ospanel                                                    
+> cd domains                                                                       
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains                                            
+> cd 376newnew                                                                     
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+> git remote add origin https://github.com/Rusic1234567890/Sait.git git push -u ori
+error: unknown switch `u'                                                          
+usage: git remote add [<options>] <name> <url>                                     
+                                                                                   
+    -f, --fetch           fetch the remote branches                                
+    --tags                import all tags and associated objects when fetching     
+                          or do not fetch any tag at all (--no-tags)               
+    -t, --track <branch>  branch(es) to track                                      
+    -m, --master <branch>                                                          
+                          master branch                                            
+    --mirror[=<push|fetch>]                                                        
+                          set up remote as a mirror to push to or fetch from       
+                                                                                   
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+> git remote add origin https://github.com/Rusic1234567890/Sait.git                
+fatal: remote origin already exists.                                               
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+> git push -u origin                                                               
+fatal: The current branch master has no upstream branch.                           
+To push the current branch and set the remote as upstream, use                     
+                                                                                   
+    git push --set-upstream origin master                                          
+                                                                                   
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+> git status                                                                       
+On branch master                                                                   
+Untracked files:                                                                   
+  (use "git add <file>..." to include in what will be committed)                   
+                                                                                   
+        .bowerrc                                                                   
+        .gitignore                                                                 
+        LICENSE.md                                                                 
+        Vagrantfile                                                                
+        assets/                                                                    
+        codeception.yml                                                            
+        commands/                                                                  
+        composer.json                                                              
+        composer.lock                                                              
+        config/                                                                    
+        controllers/                                                               
+        docker-compose.yml                                                         
+        mail/                                                                      
+        models/                                                                    
+        requirements.php                                                           
+        runtime/                                                                   
+        tests/                                                                     
+        vagrant/                                                                   
+        views/                                                                     
+        web/                                                                       
+        widgets/                                                                   
+        yii                                                                        
+        yii.bat                                                                    
+                                                                                   
+nothing added to commit but untracked files present (use "git add" to track)       
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+> git add .                                                                        
+warning: LF will be replaced by CRLF in .bowerrc.                                  
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in .gitignore.                                
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in LICENSE.md.                                
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in Vagrantfile.                               
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in assets/AppAsset.php.                       
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in codeception.yml.                           
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in commands/HelloController.php.              
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in composer.json.                             
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in composer.lock.                             
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in config/console.php.                        
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in config/db.php.                             
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in config/params.php.                         
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in config/test.php.                           
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in config/test_db.php.                        
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in config/web.php.                            
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in controllers/SiteController.php.            
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in docker-compose.yml.                        
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in mail/layouts/html.php.                     
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in models/ContactForm.php.                    
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in models/LoginForm.php.                      
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in models/User.php.                           
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in requirements.php.                          
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in runtime/.gitignore.                        
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/_bootstrap.php.                      
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/_data/.gitkeep.                      
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/_output/.gitignore.                  
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/_support/AcceptanceTester.php.       
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/_support/FunctionalTester.php.       
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/_support/UnitTester.php.             
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/acceptance.suite.yml.example.        
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/acceptance/AboutCest.php.            
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/acceptance/ContactCest.php.          
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/acceptance/HomeCest.php.             
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/acceptance/LoginCest.php.            
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/acceptance/_bootstrap.php.           
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/bin/yii.                             
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/bin/yii.bat.                         
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/functional.suite.yml.                
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/functional/ContactFormCest.php.      
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/functional/LoginFormCest.php.        
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/functional/_bootstrap.php.           
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/unit.suite.yml.                      
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/unit/_bootstrap.php.                 
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/unit/models/ContactFormTest.php.     
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/unit/models/LoginFormTest.php.       
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in tests/unit/models/UserTest.php.            
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in vagrant/config/.gitignore.                 
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in vagrant/config/vagrant-local.example.yml.  
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in vagrant/nginx/app.conf.                    
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in vagrant/nginx/log/.gitignore.              
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in vagrant/provision/always-as-root.sh.       
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in vagrant/provision/once-as-root.sh.         
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in vagrant/provision/once-as-vagrant.sh.      
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in views/layouts/main.php.                    
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in views/site/about.php.                      
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in views/site/contact.php.                    
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in views/site/error.php.                      
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in views/site/index.php.                      
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in views/site/login.php.                      
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in web/.htaccess.                             
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in web/assets/.gitignore.                     
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in web/css/site.css.                          
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in web/index-test.php.                        
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in web/index.php.                             
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in web/robots.txt.                            
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in widgets/Alert.php.                         
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in yii.                                       
+The file will have its original line endings in your working directory.            
+warning: LF will be replaced by CRLF in yii.bat.                                   
+The file will have its original line endings in your working directory.            
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+> git commit - m "init"                                                            
+error: pathspec '-' did not match any file(s) known to git.                        
+error: pathspec 'm' did not match any file(s) known to git.                        
+error: pathspec 'init' did not match any file(s) known to git.                     
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+> git commit -m "init"                                                             
+[master 0b73937] init                                                              
+ Committer: ClassUser <ClassUser@spbrtk.local>                                     
+Your name and email address were configured automatically based                    
+on your username and hostname. Please check that they are accurate.                
+You can suppress this message by setting them explicitly. Run the                  
+following command and follow the instructions in your editor to edit               
+your configuration file:                                                           
+                                                                                   
+    git config --global --edit                                                     
+                                                                                   
+After doing this, you may fix the identity used for this commit with:              
+                                                                                   
+    git commit --amend --reset-author                                              
+                                                                                   
+ 69 files changed, 6539 insertions(+)                                              
+ create mode 100644 .bowerrc                                                       
+ create mode 100644 .gitignore                                                     
+ create mode 100644 LICENSE.md                                                     
+ create mode 100644 Vagrantfile                                                    
+ create mode 100644 assets/AppAsset.php                                            
+ create mode 100644 codeception.yml                                                
+ create mode 100644 commands/HelloController.php                                   
+ create mode 100644 composer.json                                                  
+ create mode 100644 composer.lock                                                  
+ create mode 100644 config/console.php                                             
+ create mode 100644 config/db.php                                                  
+ create mode 100644 config/params.php                                              
+ create mode 100644 config/test.php                                                
+ create mode 100644 config/test_db.php                                             
+ create mode 100644 config/web.php                                                 
+ create mode 100644 controllers/SiteController.php                                 
+ create mode 100644 docker-compose.yml                                             
+ create mode 100644 mail/layouts/html.php                                          
+ create mode 100644 models/ContactForm.php                                         
+ create mode 100644 models/LoginForm.php                                           
+ create mode 100644 models/User.php                                                
+ create mode 100644 requirements.php                                               
+ create mode 100644 runtime/.gitignore                                             
+ create mode 100644 tests/_bootstrap.php                                           
+ create mode 100644 tests/_data/.gitkeep                                           
+ create mode 100644 tests/_output/.gitignore                                       
+ create mode 100644 tests/_support/AcceptanceTester.php                            
+ create mode 100644 tests/_support/FunctionalTester.php                            
+ create mode 100644 tests/_support/UnitTester.php                                  
+ create mode 100644 tests/acceptance.suite.yml.example                             
+ create mode 100644 tests/acceptance/AboutCest.php                                 
+ create mode 100644 tests/acceptance/ContactCest.php                               
+ create mode 100644 tests/acceptance/HomeCest.php                                  
+ create mode 100644 tests/acceptance/LoginCest.php                                 
+ create mode 100644 tests/acceptance/_bootstrap.php                                
+ create mode 100644 tests/bin/yii                                                  
+ create mode 100644 tests/bin/yii.bat                                              
+ create mode 100644 tests/functional.suite.yml                                     
+ create mode 100644 tests/functional/ContactFormCest.php                           
+ create mode 100644 tests/functional/LoginFormCest.php                             
+ create mode 100644 tests/functional/_bootstrap.php                                
+ create mode 100644 tests/unit.suite.yml                                           
+ create mode 100644 tests/unit/_bootstrap.php                                      
+ create mode 100644 tests/unit/models/ContactFormTest.php                          
+ create mode 100644 tests/unit/models/LoginFormTest.php                            
+ create mode 100644 tests/unit/models/UserTest.php                                 
+ create mode 100644 vagrant/config/.gitignore                                      
+ create mode 100644 vagrant/config/vagrant-local.example.yml                       
+ create mode 100644 vagrant/nginx/app.conf                                         
+ create mode 100644 vagrant/nginx/log/.gitignore                                   
+ create mode 100644 vagrant/provision/always-as-root.sh                            
+ create mode 100644 vagrant/provision/once-as-root.sh                              
+ create mode 100644 vagrant/provision/once-as-vagrant.sh                           
+ create mode 100644 views/layouts/main.php                                         
+ create mode 100644 views/site/about.php                                           
+ create mode 100644 views/site/contact.php                                         
+ create mode 100644 views/site/error.php                                           
+ create mode 100644 views/site/index.php                                           
+ create mode 100644 views/site/login.php                                           
+ create mode 100644 web/.htaccess                                                  
+ create mode 100644 web/assets/.gitignore                                          
+ create mode 100644 web/css/site.css                                               
+ create mode 100644 web/favicon.ico                                                
+ create mode 100644 web/index-test.php                                             
+ create mode 100644 web/index.php                                                  
+ create mode 100644 web/robots.txt                                                 
+ create mode 100644 widgets/Alert.php                                              
+ create mode 100644 yii                                                            
+ create mode 100644 yii.bat                                                        
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+> git push -u origin                                                               
+fatal: The current branch master has no upstream branch.                           
+To push the current branch and set the remote as upstream, use                     
+                                                                                   
+    git push --set-upstream origin master                                          
+                                                                                   
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+>  git push --set-upstream origin master                                           
+fatal: HttpRequestException encountered.                                           
+   Произошла ошибка при отправке запроса.                                          
+Username for 'https://github.com':                                                 
+Password for 'https://github.com':                                                 
+remote: No anonymous write access.                                                 
+fatal: Authentication failed for 'https://github.com/Rusic1234567890/Sait.git/'    
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+>  git push --set-upstream origin master                                           
+fatal: HttpRequestException encountered.                                           
+   Произошла ошибка при отправке запроса.                                          
+Username for 'https://github.com': Rusic1234567890/                                
+Password for 'https://Rusic1234567890/@github.com':                                
+remote: Invalid username or password.                                              
+fatal: Authentication failed for 'https://github.com/Rusic1234567890/Sait.git/'    
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+>  git push --set-upstream origin master                                           
+fatal: HttpRequestException encountered.                                           
+   Произошла ошибка при отправке запроса.                                          
+Username for 'https://github.com': rusic12345678@bk.ru                             
+Password for 'https://rusic12345678@bk.ru@github.com':                             
+Counting objects: 99, done.                                                        
+Delta compression using up to 4 threads.                                           
+Compressing objects: 100% (79/79), done.                                           
+Writing objects: 100% (99/99), 47.52 KiB | 2.26 MiB/s, done.                       
+Total 99 (delta 3), reused 0 (delta 0)                                             
+remote: Resolving deltas: 100% (3/3), done.                                        
+To https://github.com/Rusic1234567890/Sait.git                                     
+ * [new branch]      master -> master                                              
+Branch 'master' set up to track remote branch 'master' from 'origin'.              
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+> git push                                                                         
+fatal: HttpRequestException encountered.                                           
+   Произошла ошибка при отправке запроса.                                          
+Username for 'https://github.com': rusic12345678@bk.ru                             
+Password for 'https://rusic12345678@bk.ru@github.com':                             
+Everything up-to-date                                                              
+                                                                                   
+ClassUser@COMP340-14 c:\OSPanel\domains\376newnew                                  
+>                                                                                  
+                                                                                   
